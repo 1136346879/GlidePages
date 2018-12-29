@@ -1,0 +1,36 @@
+
+@squid:S1659"&Declare "mBitmap2" on a separate line.(ıÙ´íşÿÿÿÿ
+@squid:S1659"&Declare "mBitmap3" on a separate line.(ıÙ´íşÿÿÿÿ
+@squid:S1659"&Declare "mBitmap4" on a separate line.(ıÙ´íşÿÿÿÿ
+@squid:S1659"&Declare "mBitmap5" on a separate line.(ıÙ´íşÿÿÿÿ
+@squid:S1659"&Declare "mBitmap6" on a separate line.(ıÙ´íşÿÿÿÿ
+Bsquid:S1659"(Declare "bm_offsetY" on a separate line.(”Ö²Ëüÿÿÿÿ
+9squid:S1659"Declare "y" on a separate line.(¾¬›şÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(ƒ•Ú„øÿÿÿÿ
+Msquid:S1197"8Move the array designator from the variable to the type.(ç¯È°
+Rsquid:S1197"8Move the array designator from the variable to the type.(Ó÷·Òÿÿÿÿÿ
+Msquid:S1197"8Move the array designator from the variable to the type.(ö­™•
+Msquid:S1197"8Move the array designator from the variable to the type.(©”³ö
+Rsquid:S1197"8Move the array designator from the variable to the type.(±”Õÿÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(ù“ÏĞüÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(ùä­ûÿÿÿÿÿ
+Msquid:S1197"8Move the array designator from the variable to the type.(——”¹
+Rsquid:S1197"8Move the array designator from the variable to the type.(ËÙåÚÿÿÿÿÿ
+Msquid:S1197"8Move the array designator from the variable to the type.(¯Ó”
+=squid:S1068")Remove this unused "mStep" private field.(Œş’P
+Bsquid:S1068"-Remove this unused "mDistance" private field.(µÖ¥
+Qsquid:S1068"7Remove this unused "mBitmapScaleCounter" private field.(‰çæ®ùÿÿÿÿ
+hsquid:S1450"TRemove the "mStep" field and declare it as a local variable in the relevant methods.(Œş’P
+msquid:S1450"XRemove the "mDistance" field and declare it as a local variable in the relevant methods.(µÖ¥
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÉãÄ‰şÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(§«Ï‹
+=squid:S1905"(Remove this unnecessary cast to "float".(¶ëÉ
+=squid:S1905"(Remove this unnecessary cast to "float".(ÊÑ««
+=squid:S1905"(Remove this unnecessary cast to "float".(ì»¶É
+Bsquid:S1905"(Remove this unnecessary cast to "float".(ÙØ÷Âÿÿÿÿÿ
+=squid:S1905"(Remove this unnecessary cast to "float".(¨«”Ü
+Bsquid:S1905"(Remove this unnecessary cast to "float".(şç¾èıÿÿÿÿ
+Gsquid:S1172"-Remove this unused method parameter "matrix".(³«…¯şÿÿÿÿ
+psquid:S00116"URename this field "bm_offsetX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”Ö²Ëüÿÿÿÿ
+psquid:S00116"URename this field "bm_offsetY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”Ö²Ëüÿÿÿÿ
+ksquid:S00116"URename this field "UP_COUNTER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù—ı§
