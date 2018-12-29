@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/YahooNewsOnboarding-master/YahooNewsOnboarding-master.iml" filepath="$PROJECT_DIR$/YahooNewsOnboarding-master/YahooNewsOnboarding-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glide_pages.iml" filepath="$PROJECT_DIR$/glide_pages.iml" />
     </modules>
   </component>
 </project>

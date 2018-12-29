@@ -11,6 +11,7 @@ import android.view.View;
 
 /**
  * Created by rahul.raja on 9/23/15.
+ * 第二个月亮太阳  中四个view的动画
  */
 public class BookView extends View {
 

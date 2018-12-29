@@ -1,17 +1,0 @@
-
-Qsquid:S1659"0Declare "mBookFrontStartTop" on a separate line.(ÀÐ×Æýÿÿÿÿ8”¬´žÿ,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ó¬ŸË8”¬´žÿ,
-@squid:S1659"$Declare "mLine3" on a separate line.(ìÁ“œ8”¬´žÿ,
-@squid:S1659"$Declare "mLine2" on a separate line.(ìÁ“œ8”¬´žÿ,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‰¡Âîøÿÿÿÿ8”¬´žÿ,
-@squid:S1659"%Declare "mDelta5" on a separate line.( œ¬K8”¬´žÿ,
-@squid:S1659"$Declare "mLine4" on a separate line.(ìÁ“œ8”¬´žÿ,
-Rsquid:S1659"1Declare "mBookFrontStartLeft" on a separate line.(ÀÐ×Æýÿÿÿÿ8”¬´žÿ,
-vsquid:S1450"ZRemove the "mLinesPaint" field and declare it as a local variable in the relevant methods.(ÓÎØ†8”¬´žÿ,
-Bsquid:S1659"&Declare "mDelta30" on a separate line.(Þòú8”¬´žÿ,
-Psquid:S1659"/Declare "mBookBackStartTop" on a separate line.(ÀÐ×Æýÿÿÿÿ8”¬´žÿ,
-Bsquid:S1659"&Declare "mDelta35" on a separate line.(Þòú8”¬´žÿ,
-Bsquid:S1659"&Declare "mDelta40" on a separate line.(Þòú8”¬´žÿ,
-Ysquid:S1197"8Move the array designator from the variable to the type.(àøÞþÿÿÿÿ8”¬´žÿ,
-usquid:S00116"ZRename this field "ALPHA_INCREMENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àùD8”¬´žÿ,
-Tsquid:S1197"8Move the array designator from the variable to the type.(Ìéàô8”¬´žÿ,

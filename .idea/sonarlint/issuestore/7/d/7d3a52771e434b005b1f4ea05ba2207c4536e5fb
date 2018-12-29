@@ -1,27 +1,0 @@
-
-Vsquid:S1481"5Remove this unused "secondScreenRoot" local variable.(ä¼±¾þÿÿÿÿ8©ó»žÿ,
-€squid:S1450"_Remove the "mPagerBackground" field and declare it as a local variable in the relevant methods.(á˜¼•ûÿÿÿÿ8©ó»žÿ,
-lsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(×“¾ñùÿÿÿÿ8©ó»žÿ,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(§•³“ÿÿÿÿÿ8©ó»žÿ,
-Lsquid:S1172"0Remove this unused method parameter "pageWidth".(¥Ä‚ü8©ó»žÿ,
-Usquid:S1068"4Remove this unused "mPagerBackground" private field.(á˜¼•ûÿÿÿÿ8©ó»žÿ,
-Tsquid:S1172"9Remove this unused method parameter "savedInstanceState".(Æ‡Ô
-8©ó»žÿ,
-Osquid:S1068".Remove this unused "mTitleText" private field.(ÆÅ­–ùÿÿÿÿ8©ó»žÿ,
-Fsquid:S00108")Either remove or fill this block of code.(å¥ž‡8©ó»žÿ,
-}squid:S1450"\Remove the "mLetsGoButton" field and declare it as a local variable in the relevant methods.(´õ£§øÿÿÿÿ8©ó»žÿ,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(å¯àøÿÿÿÿ8©ó»žÿ,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¢ã´ªùÿÿÿÿ8©ó»žÿ,
-Fsquid:S3398"*Move this method into "CustomTransformer".(¥Ä‚ü8©ó»žÿ,
-Wsquid:S1068"6Remove this unused "mThirdPageSelected" private field.(×¨Ÿûùÿÿÿÿ8©ó»žÿ,
-nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(©ÿŽþ8©ó»žÿ,
-fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÉªÛt8©ó»žÿ,
-fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÅÌã!8©ó»žÿ,
-Isquid:S1068"-Remove this unused "mDescText" private field.(ÇÜüœ8©ó»žÿ,
-jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(²Ú±Ž8©ó»žÿ,
-Fsquid:S3398"*Move this method into "CustomTransformer".(ÆŠÔ›8©ó»žÿ,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Óµ°÷8©ó»žÿ,
-Fsquid:S00108")Either remove or fill this block of code.(Ñóé8©ó»žÿ,
-Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(×“¾ñùÿÿÿÿ8©ó»žÿ,
-Usquid:S1172"9Remove this unused method parameter "savedInstanceState".(—š«Ê8©ó»žÿ,
-Ysquid:S1197"8Move the array designator from the variable to the type.(Ò…ãåúÿÿÿÿ8©ó»žÿ,

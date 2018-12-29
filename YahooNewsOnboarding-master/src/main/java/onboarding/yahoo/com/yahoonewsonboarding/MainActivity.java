@@ -25,6 +25,9 @@ import android.widget.Toast;
 
 import java.util.HashMap;
 
+/**
+ * 默认显示第一页
+ */
 public class MainActivity extends AppCompatActivity {
 
     private static final int NUM_PAGES = 3;

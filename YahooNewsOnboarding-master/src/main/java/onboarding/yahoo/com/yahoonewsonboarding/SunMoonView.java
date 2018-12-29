@@ -19,6 +19,7 @@ import android.view.View;
 
 /**
  * Created by rahul.raja on 9/19/15.
+ * 第二个  太阳和月亮的view
  */
 public class SunMoonView extends View {
 

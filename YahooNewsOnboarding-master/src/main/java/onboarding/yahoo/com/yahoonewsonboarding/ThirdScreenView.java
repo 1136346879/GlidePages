@@ -18,6 +18,7 @@ import android.view.View;
 
 /**
  * Created by rahul.raja on 9/21/15.
+ * 第三个，自动旋转的圆
  */
 public class ThirdScreenView extends View {
 
