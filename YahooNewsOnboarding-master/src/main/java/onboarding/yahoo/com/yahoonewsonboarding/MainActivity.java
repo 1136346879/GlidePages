@@ -2,6 +2,7 @@ package onboarding.yahoo.com.yahoonewsonboarding;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
+import android.annotation.SuppressLint;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
@@ -204,7 +205,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setViewsInOriginalPosition() {
-
+        if(mOriginalXValuesMap== null){
+            return;
+        }
         mCenterBox.setX(mOriginalXValuesMap.get(mCenterBox));
         mCamcordImage.setX(mOriginalXValuesMap.get(mCamcordImage));
         mClockImage.setX(mOriginalXValuesMap.get(mClockImage));
@@ -342,16 +345,25 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * 第二个页面view的动画
+     * @param position
+     * @param pageWidth
+     * @param direction
+     */
     private void animateSecondScreen(float position, int pageWidth, int direction) {
 
         if (direction == 0) {
+            //顺时针
             mAnimationView.animateSecondScreenClock(position);
         } else {
+            //逆时针
             mAnimationView.animateSecondScreenAntiClock(position);
         }
     }
 
 
+    @SuppressLint("ValidFragment")
     public class ScreenSlideFragment extends Fragment {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -399,6 +411,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * 初始化第一个view
+     * @param rootView
+     * @param savedInstanceState
+     */
     private void initFirstScreenViews(View rootView, final Bundle savedInstanceState) {
 
         mCenterBox = (ImageView) rootView.findViewById(R.id.center_box);
@@ -502,6 +519,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * 初始化第二个guide页面
+     * @param rootView
+     * @param savedInstanceState
+     */
     private void initSecondScreenViews(View rootView, Bundle savedInstanceState) {
 
         final RelativeLayout secondScreenRoot = (RelativeLayout) rootView.findViewById(R.id.root);
@@ -512,6 +534,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * 初始化第三个guide页面
+     * @param rootView
+     * @param savedInstanceState
+     */
     private void initThirdScreenViews(View rootView, Bundle savedInstanceState) {
 
         mRoundView = (ThirdScreenView) rootView.findViewById(R.id.round_view);

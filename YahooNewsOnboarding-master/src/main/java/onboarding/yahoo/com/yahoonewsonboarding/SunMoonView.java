@@ -20,6 +20,8 @@ import android.view.View;
 /**
  * Created by rahul.raja on 9/19/15.
  * 第二个  太阳和月亮的view
+ * 从第一个view进入 顺时针旋转（太阳和月亮）
+ * 从第二个view返回 逆时针旋转（太阳和月亮）
  */
 public class SunMoonView extends View {
 
@@ -29,6 +31,7 @@ public class SunMoonView extends View {
     private int mBm_offsetX2, mBm_offsetY2;
 
     private Path mAnimPath;
+    //路径是否闭合   false 不闭合
     private PathMeasure mPathMeasure;
     private float mPathLength;
 
@@ -46,7 +49,9 @@ public class SunMoonView extends View {
     private float XCOORD;
     private float YCOORD;
 
-
+    //    Direction	备注
+    //    Path.Direction.CCW	counter-clockwise ，沿逆时针方向绘制
+    //    Path.Direction.CW	clockwise ，沿顺时针方向绘制
     Path.Direction mCurrentDirection = Path.Direction.CW;
 
     public SunMoonView(Context context) {
@@ -69,8 +74,9 @@ public class SunMoonView extends View {
         mPaint.setColor(Color.BLACK);
         mPaint.setStrokeWidth(1);
         mPaint.setStyle(Paint.Style.STROKE);
+        //虚线
         DashPathEffect dashPath = new DashPathEffect(new float[]{4, 5}, (float) 1.0);
-
+        //如需实线，注释掉下面这句代码即可
         mPaint.setPathEffect(dashPath);
 
         mBitmapSun = BitmapFactory.decodeResource(getResources(), R.mipmap.sun);
@@ -103,6 +109,7 @@ public class SunMoonView extends View {
     private void initNewPath(Path.Direction dir) {
 
         mAnimPath = new Path();
+        //绘制
         RectF rectF = new RectF(XCOORD - RADIUS, YCOORD - RADIUS, XCOORD + RADIUS, YCOORD + RADIUS);
 
         if (dir == Path.Direction.CW) {
